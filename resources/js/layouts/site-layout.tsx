@@ -56,7 +56,7 @@ export default function SiteLayout({
                                 </Link>
                             )}
                             {isAdmin && (
-                                <Link href="/crud" className={linkClass}>
+                                <Link href="/crud/" className={linkClass}>
                                     CRUD
                                 </Link>
                             )}
