@@ -73,22 +73,14 @@ export default function SiteLayout({
                                     </Link>
                                 </>
                             ) : (
-                                <>
-                                    <span className="px-2 text-xs text-amber-200/70">
-                                        {auth.user.name} ({role})
-                                    </span>
-                                    <Link href="/dashboard" className={linkClass}>
-                                        Dashboard
-                                    </Link>
-                                    <Link
-                                        href="/logout"
-                                        method="post"
-                                        as="button"
-                                        className={linkClass}
-                                    >
-                                        Logout
-                                    </Link>
-                                </>
+                                <Link
+                                    href="/logout"
+                                    method="post"
+                                    as="button"
+                                    className={linkClass}
+                                >
+                                    Logout
+                                </Link>
                             )}
                         </nav>
                     </div>
