@@ -4,10 +4,10 @@ Laravel + React (Inertia) Auth starter. Theme database: **02-Pizza** (MySQL).
 
 ## Team split
 
-| Member | Steps | Responsibility |
-|--------|-------|----------------|
-| **Tanvir PR** (`tanvir-pr`) | 1–4 | Setup, theme/layout, Auth roles/menus, Database menu + migrations/seeders |
-| Partner (later) | 5–9 | Contact, Messages, Graph (Chart.js), Admin CRUD, Hosting + PDF docs |
+| Member | Neptun | GitHub | Steps | Responsibility |
+|--------|--------|--------|-------|----------------|
+| **TANVIR HASAN** | C0FMUG | `tanvir-pr` | 1–4 | Setup, theme/layout, Auth roles/menus, Database menu + migrations/seeders |
+| **Islam md Tariqul** | WEP2KE | `tariqul71` | 5–9 | Contact, Messages, Graph (Chart.js), Admin CRUD, Hosting + PDF docs |
 
 ## Local setup
 
