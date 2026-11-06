@@ -15,11 +15,20 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // User::factory(10)->create();
+        User::factory()->create([
+            'name' => 'Admin User',
+            'email' => 'admin@pizza.local',
+            'role' => 'admin',
+            'password' => 'password',
+        ]);
 
         User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
+            'name' => 'Registered Visitor',
+            'email' => 'user@pizza.local',
+            'role' => 'registered',
+            'password' => 'password',
         ]);
+
+        $this->call(PizzaSeeder::class);
     }
 }
