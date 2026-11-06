@@ -41,6 +41,10 @@ class HandleInertiaRequests extends Middleware
             'auth' => [
                 'user' => $request->user(),
             ],
+            'creators' => [
+                ['name' => 'Tanvir PR', 'neptun' => 'UPDATE_ME'],
+                ['name' => 'Partner', 'neptun' => 'UPDATE_ME'],
+            ],
             'sidebarOpen' => ! $request->hasCookie('sidebar_state') || $request->cookie('sidebar_state') === 'true',
         ];
     }
