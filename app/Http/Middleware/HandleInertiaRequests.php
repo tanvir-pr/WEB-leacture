@@ -45,6 +45,9 @@ class HandleInertiaRequests extends Middleware
                 ['name' => 'TANVIR HASAN', 'neptun' => 'C0FMUG'],
                 ['name' => 'Islam md Tariqul', 'neptun' => 'WEP2KE'],
             ],
+            'flash' => [
+                'success' => fn () => $request->session()->get('success'),
+            ],
             'sidebarOpen' => ! $request->hasCookie('sidebar_state') || $request->cookie('sidebar_state') === 'true',
         ];
     }
